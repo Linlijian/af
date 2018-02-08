@@ -10,10 +10,12 @@ namespace af.Controllers
 {
     public class MovieController
     {
-        public string Random()
+        public Movie Random()
         {
-            var movie = new Movie(); {movie.Name = "Pronchai!";}
-            return movie.Name;
+            // var movie = new Movie(); {movie.Name = "Pronchai!";}
+            Movie movie= new Movie {Name = "A"};
+            
+            return movie;
 
         }
     }
