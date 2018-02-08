@@ -1,0 +1,10 @@
+d:\Hakako Shako\ASP.NET\af\obj\Debug\netcoreapp2.0\af.csproj.CoreCompileInputs.cache
+d:\Hakako Shako\ASP.NET\af\obj\Debug\netcoreapp2.0\af.AssemblyInfoInputs.cache
+d:\Hakako Shako\ASP.NET\af\obj\Debug\netcoreapp2.0\af.AssemblyInfo.cs
+d:\Hakako Shako\ASP.NET\af\bin\Debug\netcoreapp2.0\af.deps.json
+d:\Hakako Shako\ASP.NET\af\bin\Debug\netcoreapp2.0\af.runtimeconfig.json
+d:\Hakako Shako\ASP.NET\af\bin\Debug\netcoreapp2.0\af.runtimeconfig.dev.json
+d:\Hakako Shako\ASP.NET\af\bin\Debug\netcoreapp2.0\af.dll
+d:\Hakako Shako\ASP.NET\af\bin\Debug\netcoreapp2.0\af.pdb
+d:\Hakako Shako\ASP.NET\af\obj\Debug\netcoreapp2.0\af.dll
+d:\Hakako Shako\ASP.NET\af\obj\Debug\netcoreapp2.0\af.pdb
