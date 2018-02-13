@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,17 +7,19 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using af.Models;
 
+
 namespace af.Controllers
 {
-    public class MovieController
+    public class MovieController : Controller
     {
-        public Movie Random()
+        public IActionResult Random()
         {
-            // var movie = new Movie(); {movie.Name = "Pronchai!";}
-            Movie movie= new Movie {Name = "A"};
-            
-            return movie;
+            var movie = new Movie(); {movie.Name = "Pronchai!";}
+            // Movie movie = new Movie { Name = "A" };
+
+           return View(movie);
 
         }
+        
     }
 }
