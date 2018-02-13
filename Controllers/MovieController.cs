@@ -22,9 +22,10 @@ namespace af.Controllers
             // return Content("A");
         }
 
+        [Route("movie/edit/{year}/{day}")]
         public IActionResult Edit(int year, int day)
         {
-            return Content(year +"/"+ day);
+            return Content("a"+year +"/"+ day);
         }
 
     }
