@@ -14,12 +14,15 @@ namespace af.Controllers
     {
         public IActionResult Random()
         {
-            var movie = new Movie(); {movie.Name = "Pronchai!";}
+            var movie = new Movie();
+            { movie.Name = "Pronchai!"; }
             // Movie movie = new Movie { Name = "A" };
 
-           return View(movie);
+            // return View(movie);
+            return Content("A");
+
 
         }
-        
+
     }
 }
