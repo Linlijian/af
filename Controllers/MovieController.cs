@@ -18,10 +18,13 @@ namespace af.Controllers
             { movie.Name = "Pronchai!"; }
             // Movie movie = new Movie { Name = "A" };
 
-            // return View(movie);
-            return Content("A");
+             return View(movie);
+            // return Content("A");
+        }
 
-
+        public IActionResult Edit(int i)
+        {
+            return Content("i = " + i);
         }
 
     }
