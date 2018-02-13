@@ -22,9 +22,9 @@ namespace af.Controllers
             // return Content("A");
         }
 
-        public IActionResult Edit(int i)
+        public IActionResult Edit(int year, int day)
         {
-            return Content("i = " + i);
+            return Content(year +"/"+ day);
         }
 
     }
