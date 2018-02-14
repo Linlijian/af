@@ -17,15 +17,16 @@ namespace af.Controllers
             var movie = new Movie();
             { movie.Name = "Pronchai!"; }
             // Movie movie = new Movie { Name = "A" };
-
-             return View(movie);
+            ViewData["Top-Title"] = "Movie list";
+            ViewData["Sub-Title"] = "movie name";
+            return View(movie);
             // return Content("A");
         }
 
         [Route("movie/edit/{year}/{day}")]
         public IActionResult Edit(int year, int day)
         {
-            return Content("a"+year +"/"+ day);
+            return Content("a" + year + "/" + day);
         }
 
     }
