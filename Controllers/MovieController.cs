@@ -34,6 +34,5 @@ namespace af.Controllers
         {
             return Content("a" + year + "/" + day);
         }
-
     }
 }
